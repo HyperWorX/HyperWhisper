@@ -1,0 +1,7 @@
+# This repository distributes built artefacts only. No source is published
+# here; it lives in the private HyperWhisper-dev repository.
+*.pyc
+__pycache__/
+dist/
+build/
+venv/

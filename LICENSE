@@ -1,0 +1,82 @@
+HyperWhisper Software Licence
+Copyright (c) 2026 HyperWorX. All rights reserved.
+
+1. PROPRIETARY SOFTWARE
+
+This software and its source code (the "Software") are proprietary and
+confidential to HyperWorX. The Software is licensed, not sold. No ownership
+rights are transferred by this licence.
+
+2. GRANT
+
+Subject to the terms below, HyperWorX grants you a personal, non-exclusive,
+non-transferable, revocable licence to download, install and run the Software
+for your own use, including internal business use.
+
+3. RESTRICTIONS
+
+Except as expressly permitted by this licence or by applicable law that cannot
+be excluded by agreement, you may not:
+
+  (a) redistribute, publish, sublicense, sell, rent, lease or otherwise make
+      the Software available to any third party;
+  (b) modify, adapt or create derivative works of the Software for
+      distribution to any third party;
+  (c) remove, obscure or alter any copyright, trademark or other proprietary
+      notice contained in the Software;
+  (d) use the Software or any part of it to build, train or offer a competing
+      product or service.
+
+Viewing and modifying the source code for your own use, and submitting
+contributions back to HyperWorX, are permitted.
+
+4. CONTRIBUTIONS
+
+By submitting a contribution to this project you grant HyperWorX a perpetual,
+worldwide, irrevocable, royalty-free licence to use, reproduce, modify and
+distribute that contribution as part of the Software.
+
+5. THIRD-PARTY COMPONENTS
+
+The Software depends on third-party components that are distributed under
+their own licences, which are unaffected by this licence and continue to
+govern those components. These include, without limitation:
+
+  faster-whisper (MIT), CTranslate2 (MIT), Flet (Apache-2.0),
+  psutil (BSD-3-Clause), GPUtil (MIT), Rich (MIT),
+  imageio-ffmpeg (BSD-2-Clause), and, when the optional diarisation extra is
+  installed, PyTorch (BSD-3-Clause) and pyannote.audio (MIT).
+
+Whisper model weights are obtained at runtime from their respective publishers
+and are subject to those publishers' terms. FFmpeg, when used, is subject to
+its own licence (LGPL-2.1 or GPL-2.0 depending on build).
+
+6. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+7. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL HYPERWORX BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Nothing in this licence excludes, restricts or modifies any guarantee, right
+or remedy you may have under the Australian Consumer Law or other law that
+cannot lawfully be excluded.
+
+8. TERMINATION
+
+This licence terminates automatically if you breach any of its terms. On
+termination you must cease all use of the Software and destroy all copies in
+your possession.
+
+9. GOVERNING LAW
+
+This licence is governed by the laws of Australia.
+
+For licensing enquiries, open an issue at
+https://github.com/HyperWorX/HyperWhisper/issues
