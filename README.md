@@ -65,8 +65,14 @@ and download the installer for your platform.
 
 ### Windows
 
-Run `HyperWhisper-<version>-setup.exe`. It installs to Program Files and adds a
-Start Menu entry. **You do not need Python** — everything is bundled.
+Run `HyperWhisper-Setup-<version>.exe`. It installs to Program Files and adds a
+Start Menu entry. You do not need Python; everything is bundled.
+
+The installer has an opt-out task, **Set up NVIDIA GPU acceleration**. If an
+NVIDIA card is found and the CUDA runtime is missing, it downloads about
+553 MB of libraries. A machine with no NVIDIA card skips that download. You
+can run it later from the Start Menu entry of the same name if you skipped
+it or were offline at install time.
 
 Each release publishes a SHA-256 alongside the installer if you want to verify
 the download.
