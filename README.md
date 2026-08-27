@@ -298,3 +298,9 @@ licences, which are listed in section 5 of the licence file.
 - [OpenAI Whisper](https://github.com/openai/whisper) — the model family.
 - [pyannote-audio](https://github.com/pyannote/pyannote-audio) — speaker diarisation.
 - [Flet](https://flet.dev/) — the cross-platform GUI framework.
+
+---
+
+If you use [Directory Opus](https://www.gpsoft.com.au/), you may also be
+interested in [DopusWorX](https://github.com/HyperWorX/DopusWorX): a document
+viewer and in-place editor that lives in the Opus pane.
