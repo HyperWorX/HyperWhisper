@@ -7,8 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## 1.0.0
+
+First release. Local Whisper transcription with a desktop interface: model
+selection, GPU or CPU, batch queue, transcript viewer with editing, optional
+speaker diarisation, and SRT / VTT / TXT / Premiere export.
+
+### Added
+
+- A **Buy me a coffee** link, in the app's Settings dialog and in the README.
+- The Windows installer can set up NVIDIA GPU acceleration during install. If
+  a card is present and the CUDA runtime is missing, it downloads about 553 MB
+  of libraries. That task is ticked by default; a machine with no NVIDIA card
+  skips the download. A Start Menu entry re-runs it later.
+- The desktop client is bundled in the installer, so the app starts without a
+  separate first-run download.
+
 ### Fixed
 
+- **Free speaker diarisation now labels speakers.** A cue that covered two
+  people used to keep one timestamp and one label; the other speaker never
+  appeared, and the timing looked wrong. Cues are now cut at speaker changes.
+  The installer now ships with speaker diarisation, so you do not install a
+  separate Python extra.
+- **Whisper weights now load on Windows.** Hugging Face sometimes stores the
+  model file as a shortcut the transcription engine cannot open. Falling back
+  to CPU retried the same unreadable file. That path is now a real file, and a
+  GPU machine stays on GPU.
+- **The windowed Windows app no longer flashes a blank console** on every
+  status poll and when it probes ffmpeg. That was a child-process console, not
+  the intro video.
 - **Turning the VAD filter off no longer fails.** It previously errored on
   every file longer than 30 seconds. Switching it off now runs sequential
   decoding: slower, but the transcript is correct, and the console says so.
@@ -42,13 +70,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Telemetry readouts no longer overflow their pills; hover for the detail.
 - Tooltips restyled for the dark interface and given a consistent width.
 - The installer shows its banner before asking whether to proceed.
-
-### Added
-
-- A **Buy me a coffee** link, in the app's Settings dialog and in the README.
-
-## 1.0.0
-
-First release. Local Whisper transcription with a desktop interface: model
-selection, GPU or CPU, batch queue, transcript viewer with editing, optional
-speaker diarisation, and SRT / VTT / TXT / Premiere export.
