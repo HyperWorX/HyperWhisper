@@ -28,9 +28,10 @@ speaker diarisation, and SRT / VTT / TXT / Premiere export.
 - **Free speaker diarisation now labels speakers.** A cue that covered two
   people used to keep one timestamp and one label; the other speaker never
   appeared, and the timing looked wrong. Cues are now cut at speaker changes.
-  The installer ships the libraries that feature needs. An earlier installer
-  still dropped the labels with a missing-module error after transcription;
-  that module is now in the freeze.
+  The default is the community model (no Hugging Face account). The gated
+  pyannote models still need a token entered in Settings. An earlier
+  installer dropped labels after transcription; this one labels speakers
+  on the community model.
 - **Whisper weights now load on Windows.** Hugging Face sometimes stores the
   model file as a shortcut the transcription engine cannot open. Falling back
   to CPU retried the same unreadable file. That path is now a real file, and a
