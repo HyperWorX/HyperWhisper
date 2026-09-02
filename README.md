@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/brand/logo.png" alt="HyperWhisper" width="620">
+<img src="assets/brand/logo.png" alt="HyperWhisper" width="320">
 
 # HyperWhisper
 
