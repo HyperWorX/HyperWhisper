@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="assets/webhero.png" alt="HyperWhisper" width="920">
-
-# HyperWhisper
+<img src="assets/webhero-nobg.png" alt="HyperWhisper" width="920">
 
 **Turn any audio or video file into an accurate, timed transcript — on your own machine.**
 
