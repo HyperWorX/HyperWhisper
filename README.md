@@ -16,7 +16,7 @@ Nothing is uploaded, nothing is metered, and it keeps working offline.
 </div>
 
 <p align="center">
-<img src="assets/ui-transcribe.png" alt="HyperWhisper Transcribe workspace" width="920">
+<img src="assets/ui-transcribe.png" alt="HyperWhisper Transcribe workspace" width="720">
 </p>
 
 ---
